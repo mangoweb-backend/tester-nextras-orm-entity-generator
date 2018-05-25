@@ -1,0 +1,19 @@
+{
+	"name": "mangoweb/tester-nextras-orm-entity-generator",
+	"description": "Nextras ORM entity generator suitable for testing",
+	"type": "library",
+	"license": "MIT",
+	"version": "0.1",
+	"require": {
+		"php": "~7.1",
+		"nextras/orm": "~3.0"
+	},
+	"require-dev": {
+		"phpstan/phpstan-shim": "~0.9"
+	},
+	"autoload": {
+		"classmap": [
+			"src/"
+		]
+	}
+}
